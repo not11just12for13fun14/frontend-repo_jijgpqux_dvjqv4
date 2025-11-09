@@ -1,6 +1,5 @@
 import Hero from "./components/Hero";
 import Services from "./components/Services";
-import Gallery from "./components/Gallery";
 import Booking from "./components/Booking";
 import Footer from "./components/Footer";
 
@@ -10,7 +9,6 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
-      <Gallery />
       <Booking />
       <Footer />
     </div>
@@ -24,7 +22,6 @@ function Navbar() {
         <a href="#home" className="font-display text-xl font-bold tracking-tight text-white">MENITY</a>
         <nav className="hidden items-center gap-6 text-sm text-white/80 sm:flex">
           <a href="#services" className="hover:text-white">Services</a>
-          <a href="#gallery" className="hover:text-white">Gallery</a>
           <a href="#booking" className="hover:text-white">Booking</a>
           <a href="tel:+923001234567" className="rounded-full bg-indigo-600 px-4 py-2 font-semibold text-white hover:bg-indigo-500">Call Now</a>
         </nav>
